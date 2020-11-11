@@ -6,12 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import Business from './components/Business/Business'
 import BusinessList from './components/BusinessList/BusinessList'
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-    <BusinessList />
-  </React.StrictMode>,
-  document.getElementById('root')
+ReactDOM.render(<App />, document.getElementById('root')
 );
 
 // If you want to start measuring performance in your app, pass a function
